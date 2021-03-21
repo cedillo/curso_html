@@ -1,0 +1,29 @@
+body{
+    background: rgba(216, 214, 214, 0.979) ;
+}
+
+ul{
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    /*width: 23%;
+    display: inline-block;*/
+    width: 150px;
+    /*border: 1px solid red;*/
+    text-align: center;
+    margin: 0 15px 0 0;
+    padding: 10px;
+    background: cornflowerblue;
+    color: rgb(10 13 16);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+li:hover{
+    background: goldenrod;
+}

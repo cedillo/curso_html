@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form>
+        <label for="nombre">
+            <span>Nombre del usuario</span>
+            <input type="text" id="nombre" placeholder="Ej. juan.ramirez" required />
+        </label>
+
+        <label for="password">
+            <span>Contraseña</span>
+            <input type="password" id="password" />
+        </label>
+
+        <label for="edad">
+            <span>Edad</span>
+            <input type="number" id="edad" min="1" max="120"  />
+        </label>
+
+        <label for="date">
+            <span>Fecha de nacimiento</span>
+            <input type="date" id="date" />
+        </label>
+
+        <label for="email">
+            <span>Correo electronico</span>
+            <input type="email" id="email" />
+        </label>
+
+        <label for="estado">
+            <span>En que estado vives</span>
+            <select name="" id="">
+                <option value="">Selecciona una opción</option>
+                <option value="DIF">Distrito Federal</option>
+                <option value="AGS">Aguascalientes</option>
+                <option value="BCN">Baja California</option>
+                <option value="BCS">Baja California Sur</option>
+                <option value="CAM">Campeche</option>
+                <option value="CHP">Chiapas</option>
+                <option value="CHI">Chihuahua</option>
+                <option value="COA">Coahuila</option>
+                <option value="COL">Colima</option>
+                <option value="DUR">Durango</option>
+                <option value="GTO">Guanajuato</option>
+                <option value="GRO">Guerrero</option>
+                <option value="HGO">Hidalgo</option>
+                <option value="JAL">Jalisco</option>
+                <option value="MEX">M&eacute;xico</option>
+                <option value="MIC">Michoac&aacute;n</option>
+                <option value="MOR">Morelos</option>
+                <option value="NAY">Nayarit</option>
+                <option value="NLE">Nuevo Le&oacute;n</option>
+                <option value="OAX">Oaxaca</option>
+                <option value="PUE">Puebla</option>
+                <option value="QRO">Quer&eacute;taro</option>
+                <option value="ROO">Quintana Roo</option>
+                <option value="SLP">San Luis Potos&iacute;</option>
+                <option value="SIN">Sinaloa</option>
+                <option value="SON">Sonora</option>
+                <option value="TAB">Tabasco</option>
+                <option value="TAM">Tamaulipas</option>
+                <option value="TLX">Tlaxcala</option>
+                <option value="VER">Veracruz</option>
+                <option value="YUC">Yucat&aacute;n</option>
+                <option value="ZAC">Zacatecas</option>
+            </select>
+        </label>
+
+        <input list="estados" />
+        <datalist id="estados">
+            <option value="DIF">Distrito Federal</option>
+            <option value="AGS">Aguascalientes</option>
+            <option value="BCN">Baja California</option>
+            <option value="BCS">Baja California Sur</option>
+            <option value="CAM">Campeche</option>
+            <option value="CHP">Chiapas</option>
+            <option value="CHI">Chihuahua</option>
+            <option value="COA">Coahuila</option>
+            <option value="COL">Colima</option>
+            <option value="DUR">Durango</option>
+            <option value="GTO">Guanajuato</option>
+            <option value="GRO">Guerrero</option>
+            <option value="HGO">Hidalgo</option>
+            <option value="JAL">Jalisco</option>
+            <option value="MEX">M&eacute;xico</option>
+            <option value="MIC">Michoac&aacute;n</option>
+            <option value="MOR">Morelos</option>
+            <option value="NAY">Nayarit</option>
+            <option value="NLE">Nuevo Le&oacute;n</option>
+            <option value="OAX">Oaxaca</option>
+            <option value="PUE">Puebla</option>
+            <option value="QRO">Quer&eacute;taro</option>
+            <option value="ROO">Quintana Roo</option>
+            <option value="SLP">San Luis Potos&iacute;</option>
+            <option value="SIN">Sinaloa</option>
+            <option value="SON">Sonora</option>
+            <option value="TAB">Tabasco</option>
+            <option value="TAM">Tamaulipas</option>
+            <option value="TLX">Tlaxcala</option>
+            <option value="VER">Veracruz</option>
+            <option value="YUC">Yucat&aacute;n</option>
+            <option value="ZAC">Zacatecas</option>
+        </datalist>
+        
+        <label for="mayor">
+            <span>Eres mayor de edad</span>
+            <input type="checkbox" id="mayor" />
+        </label>
+
+        <label for="sexo">
+            <span>Seleccione su genero: </span>
+            <span>Masculino</span>
+            <input type="radio" name="genero" value="male" />
+            <span>Femenino</span>
+            <input type="radio" name="genero" value="female" />
+            <span>Otros</span>
+            <input type="radio" name="genero" value="others" />
+        </label>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
